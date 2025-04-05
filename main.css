@@ -1,0 +1,109 @@
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background-color: #212121;
+}
+
+.box {
+  width: 400px;
+  height: 468px;
+  border-radius: 20px;
+  background-image: linear-gradient(135deg, #49e3b6, #4f9fa1, #455d76);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  flex-direction: column;
+  padding: 8px;
+  gap: 16px;
+}
+.container-input {
+  display: flex;
+  align-items: center;
+  background: #ffffffcc;
+  border-radius: 25px;
+  padding: 5px 66px;
+  width: 165px;
+  position: absolute;
+  top: 20px;
+  left: 31px;
+}
+
+.input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.input::placeholder {
+  color: #888;
+  font-size: 13px;
+}
+
+.search-btn {
+  background: #ffffffcc;
+  border: none;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  right: -54px;
+}
+
+.search-btn svg {
+  width: 16px;
+  height: 16px;
+  fill: #444;
+}
+
+.weather-icon {
+  width: 86px;
+  margin-top: 58px;
+}
+.weather h1 {
+  color: white;
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+.weather h2 {
+  color: white;
+  font-size: 34px;
+  font-weight: 400;
+  margin-top: 3px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+  width: 282px;
+}
+.col {
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: left;
+
+  font-size: 16px;
+  margin-top: -6px;
+}
+
+.col img {
+  width: 40px;
+  margin-right: 10px;
+}
